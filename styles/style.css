@@ -1,0 +1,48 @@
+/* common shared styles */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+/* Nav related styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+header nav h3 {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+header nav h3 span {
+    color: #FD6E0A;
+}
+
+#hire {
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+}
